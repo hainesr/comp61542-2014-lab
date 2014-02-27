@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block head %}
+  {{ super() }}
+{% endblock %}
+
+{% block content %}
+<ul>
+  <li><a href="/statisticsdetails/publication_summary">Publication Summary</a></li>
+  <li><a href="/statisticsdetails/publication_author">Publication by Author</a></li>
+  <li><a href="/statisticsdetails/publication_year">Publication by Year</a></li>
+  <li><a href="/statisticsdetails/author_year">Author by Year</a></li>
+  <li><a href="/averages">Averaged Year Data</a></li>
+  <li><a href="/coauthors">Co-Authors</a></li>
+</ul>
+{% endblock %}
